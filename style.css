@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fea418;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.foto-banner-principal{
+    background-image: url('./img/oloko.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.painel-login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #e08c04;
+    border-radius: 10px;
+}
+
+.painel-login h1{
+    font-size: 6rem;
+    color: #fff;
+}
+
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 400px;
+    color: #fff;
+}
+
+input{
+    padding: 0.7rem;
+    background-color: #0202023a;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.836);
+    font-weight: bold;
+}
+
+#buttonEntrar{
+    margin-top: 1rem;
+    width: 200px;
+    align-self: center;
+    color: white;
+}
+
+#buttonEntrar:hover{
+    background-color: #020202b9;
+    transition: 0.3s;
+}
+
+#increver{
+    font-size: 1.2rem;
+    font-weight: 300;
+    align-self: center;
+}
+
+#increver>a{
+    text-decoration: none;
+    color: #000000;
+}
